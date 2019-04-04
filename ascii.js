@@ -90,8 +90,8 @@ function main() {
         cur_row = Math.floor(cursor.y / ctx.line_height),
         distance_moved = Math.sqrt(Math.pow(cursor.px - cursor.x, 2) + Math.pow(cursor.py - cursor.y, 2));
     rad += 0.03 * (0.5 * distance_moved - rad);
-    rad = Math.min(rad, 10);
-    if (rad > 0) circle(ascii_grid, cur_col, cur_row, Math.floor(rad), chars.map.get("A"));
+    rad = Math.min(rad, 15);
+    if (rad > 0) circle(ascii_grid, cur_col, cur_row, Math.floor(rad), chars.map.get("0"));
 
 
     // Fill spans with values

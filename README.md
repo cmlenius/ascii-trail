@@ -1,1 +1,1 @@
-https://cmlenius.github.io/submodules/ascii-trail/ascii.html
+https://cmlenius.github.io/ascii-trail/
